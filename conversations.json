@@ -1,0 +1,14 @@
+[
+    {
+      "user": "Hi",
+      "bot": "Hello! How can I assist you with your health today?"
+    },
+    {
+      "user": "I have a headache",
+      "bot": "I'm sorry to hear that. You should rest, drink water, and if it persists, consider taking a mild pain reliever. Want me to set a reminder for medicine?"
+    },
+    {
+      "user": "Where's the nearest medical store?",
+      "bot": "Let me check your location and find the closest medical stores near you."
+    }
+]

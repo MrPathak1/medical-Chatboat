@@ -1,0 +1,36 @@
+[
+    {
+        "medicine": "qqw",
+        "times": [
+            "2:00"
+        ],
+        "days": [
+            "2days"
+        ],
+        "created_on": "2025-05-01"
+    },
+    {
+        "medicine": "Med1",
+        "time": "10:00",
+        "day": "Monday",
+        "created_on": "2025-05-01"
+    },
+    {
+        "medicine": "Med1",
+        "time": "10:00",
+        "day": "Monday",
+        "created_on": "2025-05-01"
+    },
+    {
+        "medicine": "Med1",
+        "time": "10:00",
+        "day": "Monday",
+        "created_on": "2025-05-01"
+    },
+    {
+        "medicine": "Med1",
+        "time": "10:00",
+        "day": "Monday",
+        "created_on": "2025-05-01"
+    }
+]

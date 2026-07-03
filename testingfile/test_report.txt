@@ -1,0 +1,31 @@
+Test Report for Medical Chatbot Application
+
+1. test_gui_chatbot.py
+- Tests GUI initialization, message display, and command handling.
+- Mocks external dependencies like location, stores, ayurveda tips, emergency calls, medicine info, and reminder GUI.
+- Covers all main GUI methods including send_message, process_input, and quit_chat.
+- Ensures subprocess calls for reminder notification are tested.
+
+2. test_reminder.py
+- Tests ReminderGUI class for loading and saving reminders.
+- Validates set_reminder method for both valid and invalid inputs.
+- Mocks file operations and messagebox dialogs.
+- Tests notification service start and message sending logic with mocks.
+- Handles infinite loop in notification_loop by controlled exit.
+
+3. test_main.py
+- Tests chatbot command-line interface logic.
+- Mocks input and print for simulating user interaction.
+- Covers all chatbot commands: location, medical store, ayurveda, emergency, medicine info, reminders, and unknown commands.
+- Mocks external dependencies and subprocess calls.
+
+Summary:
+- Comprehensive unit tests created for GUI and backend modules.
+- External dependencies and side effects are mocked for isolated testing.
+- Tests cover normal and edge cases for user inputs and backend responses.
+- A detailed test report is generated for review.
+
+To run tests:
+- Use `python -m unittest discover testingfile`
+
+This concludes the testing implementation and report for the Medical Chatbot Application.
